@@ -45,11 +45,12 @@ Route::get('donate', function()
     return View::make('donate')->withTitle('Donate');
 });
 
+// contact page (app/views/contact.blade.php)
 Route::get('contact', 'ContactController@getContact');
 Route::post('contact', 'ContactController@postContact');
 
-// work page (app/views/work.blade.php)
-Route::get('work', array('as' => 'work', function()
+// seeds page (app/views/seeds.blade.php)
+Route::get('seeds', array('as' => 'seed', function()
 {
-    return View::make('work');
+    return View::make('seeds')->withTitle('Seeds');
 }));

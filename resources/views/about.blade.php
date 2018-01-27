@@ -19,7 +19,7 @@
       <h4>Personal Stories</h4>
       <p>Heirloom seeds often have fascinating histories. Learn how they originally came to be cultivated and maintained.</p>
       <h4>Seeds Need Saving</h4>
-      <p>With factory farming techniques increasing, crop yields are up at the expense of seed diversity.  A relatively few number of hybrid seeds grow most of our supermarket-destined crops.  This leaves genetic diversity diminished, consumer choice lessened, and the potential for catastrophic crop disease increased.</p>
+      <p>With factory farming techniques increasing, crop yields are up at the expense of seed diversity.  A relatively few number of hybrid seeds grow most of our supermarket-destined crops.  This leaves genetic diversity diminished, consumer choice lessened, and the potential for catastrophic crop failure increased.</p>
       <br />
       <h4>Help us preserve heirloom seeds for a healthy future!</h4>
   </div>

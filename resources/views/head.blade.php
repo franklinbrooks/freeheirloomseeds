@@ -40,7 +40,7 @@
             }
 
             .full-height {
-                height: 25%;
+                height: 20%;
             }
 
             .flex-center {
@@ -93,12 +93,6 @@
             }
             input[type="image"] {
                 cursor: pointer;
-            }
-            footer {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-                color: white;
             }
             input[type="text"], #email, #subject {
                 border: 2px solid green;

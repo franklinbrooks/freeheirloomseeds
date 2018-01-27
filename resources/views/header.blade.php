@@ -21,8 +21,6 @@
                 FreeHeirloomSeeds.org
             </div>
         </a>
-        <div>Distributing FREE Heirloom Seeds to the public.&nbsp;&nbsp;Empowering individuals &amp; communities to be self reliant.
-        </div>
         <br />
     </div>
 </div>
