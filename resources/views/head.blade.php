@@ -24,7 +24,7 @@
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
-                height: 100vh;
+                /*height: 100vh;*/
                 margin: 0;
             }
             .flashMessage {
@@ -40,7 +40,7 @@
             }
 
             .full-height {
-                height: 20%;
+                /*height: 17%;*/
             }
 
             .flex-center {
@@ -68,10 +68,6 @@
                 text-decoration: none;
             }
 
-            .title {
-                font-size: 84px;
-            }
-
             .links > ul > li > a {
                 font-family: Raleway, sans-serif;
                 color: white;
@@ -81,10 +77,6 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
-            }
-
-            .m-b-md {
-                /*margin-bottom: 30px;*/
             }
 
             #nav-mobile {
@@ -111,6 +103,78 @@
                 border: 2px solid green;
                 background-color: #00c853;
             }
-
+            .promo-caption {
+                font-size: 1.7rem;
+                font-weight: 500;
+                margin-top: 5px;
+                margin-bottom: 0;
+            }
+            .myCard {
+                height: 280px;
+                margin: 25px 0px 25px 0px;
+            }
+            blockquote{
+              margin: 20px 0;
+              padding-left: 1.5rem;
+              border-left: 5px solid green;
+            }
+            #imageBackground {
+                position: relative;
+                background-image: url("/freeheirloomseeds/public/images/Seed_germination.png");
+                background-position: right;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 500px;
+            }
+            #mytextbox {
+                position: absolute;
+                top: 100px;
+                left: 75px;
+                height: 250px;
+                width: 500px;
+                margin: 0 auto;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.3);
+                color: white;
+                text-align: center;
+            }
+            .distribution {
+                height: 400px;
+                background-image: url("/freeheirloomseeds/public/images/soybeans.jpg");
+                background-position: center left;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .dist {
+                height: 200px;
+                width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background: rgba(129, 199, 138, 0.9);
+                color: white;
+                text-align: center;
+            }
+            .seeds {
+                position: relative;
+                background-image: url("/freeheirloomseeds/public/images/seeds.jpg");
+                height: 400px;
+            }
+            .instructions {
+                height: 550px;
+            }
+            .seedsText {
+                position: absolute;
+                top: 75px;
+                left: 15%;
+                width: 70%;
+                height: 250px;
+                background:  rgba(255,255,255, 0.95);
+                padding: 30px;
+                color: green;
+            }
+            #sase {
+                top: 50px;
+                left: 100px;
+            }
         </style>
     </head>

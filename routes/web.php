@@ -50,7 +50,7 @@ Route::get('contact', 'ContactController@getContact');
 Route::post('contact', 'ContactController@postContact');
 
 // seeds page (app/views/seeds.blade.php)
-Route::get('seeds', array('as' => 'seed', function()
+Route::get('seeds', function()
 {
     return View::make('seeds')->withTitle('Seeds');
-}));
+});

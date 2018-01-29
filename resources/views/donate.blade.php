@@ -4,14 +4,14 @@
   <div class="container">
     <h2>Donate</h2>
     <hr />
-    <p>Please help us continue to ensure that heirloom seeds will be available to future generations.  Your generous donation helps us continue our distribution, advocacy, and outreach.</p>
+    <p class="flow-text">Please help us continue to ensure that heirloom seeds will be available to future generations.  Your generous donation helps us continue our distribution, advocacy, and outreach.</p>
     <br />
 
     <div class="row center">
-      <div class="col s10 offset-s1 center">
+      <div class="col s8 offset-s2 center">
         <div class="card-panel green darken-4 center">
-          <span class="white-text">Click the link to donate via Paypal:
-          </span>
+          <h5 class="white-text">Donate via Paypal:
+          </h5>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
               <input type="hidden" name="cmd" value="_s-xclick">
               <input type="hidden" name="hosted_button_id" value="YNZK5MSG4LACN">
