@@ -54,7 +54,7 @@
 <!--  Seeds div -->
 <div class="seeds">
   <div class="seedsText center">
-    <h2 class="center" style="font-family: Roboto">get your free heirloom seeds<br />in time for spring planting!</h2>
+    <h2 class="center" style="font-family: Roboto">Get your free heirloom seeds<br />in time for spring planting!</h2>
     <a class="waves-effect waves-light btn green" href="seeds">
       PLACE ORDER
     </a>

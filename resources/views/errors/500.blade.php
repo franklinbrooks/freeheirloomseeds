@@ -10,7 +10,7 @@
         <META NAME="keywords" CONTENT="free heirloom seeds, free seed, free vegetable seeds, seeds, organic gardening, organic seed, free seed distribution">
         <META NAME="robot" CONTENT="index,follow">
         <META NAME="author" CONTENT="Michael King">
-        <title>FreeHeirloomSeeds.org - 404 Error </title>
+        <title>FreeHeirloomSeeds.org - 500 Error </title>
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <!-- Fonts -->
@@ -84,7 +84,7 @@
 <body>
   @include('header')
   <div class="container">
-    <h2>Error - 404</h2>
+    <h2>Error - 500</h2>
     <hr />
   </div>
   @include('footer')

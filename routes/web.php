@@ -55,6 +55,7 @@ Route::get('seeds', function()
     return View::make('seeds')->withTitle('Seeds');
 });
 
+// protected dashboard (app/views/dashboard.blade.php)
 Auth::routes();
 
 Route::get('/dashboard', [

@@ -10,7 +10,7 @@
         <META NAME="keywords" CONTENT="free heirloom seeds, free seed, free vegetable seeds, seeds, organic gardening, organic seed, free seed distribution">
         <META NAME="robot" CONTENT="index,follow">
         <META NAME="author" CONTENT="Michael King">
-        <title>FreeHeirloomSeeds.org - <!-- {{$title}}  --></title>
+        <title>FreeHeirloomSeeds.org - {{$title}} </title>
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <!-- Fonts -->
@@ -175,6 +175,19 @@
             #sase {
                 top: 50px;
                 left: 100px;
+            }
+            #volunteerBackground {
+                position: relative;
+                background-image: url("/freeheirloomseeds/public/images/volunteer.jpg");
+                background-position: right;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 500px;
+            }
+            #volunteerText {
+                margin: 0 auto;
+                color: white;
+                text-align: center;
             }
         </style>
     </head>
