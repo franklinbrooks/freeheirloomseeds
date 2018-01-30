@@ -2,17 +2,20 @@
     <div class="flashMessage green"> {{ Session::get('success') }} </div>
 @endif
 
-<div class="flex-center position-ref full-height">
+<!-- <div class="flex-center position-ref full-height">
     @if (Route::has('login'))
         <div class="top-right links">
             @auth
-                <a href="{{ url('/home') }}">Home</a>
+                <a href="{{ url('/') }}">Logout</a>
+                <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> Logout </a>
+
+<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
             @else
                 <a href="{{ route('login') }}">Login</a>
                 <a href="{{ route('register') }}">Register</a>
             @endauth
         </div>
-    @endif
+    @endif -->
 
 
     <div class="content">
@@ -36,8 +39,22 @@
         <li><a href="donate">donate</a></li>
         <li><a href="links">links</a></li>
         <li><a href="contact">contact</a></li>
+
+        @if (Route::has('login'))
+          @auth
+            <li><a href="{{ url('/dashboard') }}">dashboard</a></li>
+            <li>
+              <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> Logout
+              </a>
+
+                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}
+                   </form>
+            </li>
+          @endauth
+        @endif
+
       </ul>
-      <ul class="side-nav" id="mobile-demo">
+      <ul class="side-nav green lighten-2 " id="mobile-demo">
         <li><a href="http://localhost/freeheirloomseeds/">home</a></li>
         <li><a href="seeds">seeds</a></li>
         <li><a href="about">about</a></li>
@@ -46,6 +63,18 @@
         <li><a href="donate">donate</a></li>
         <li><a href="links">links</a></li>
         <li><a href="contact">contact</a></li>
+        @if (Route::has('login'))
+          @auth
+            <li><a href="{{ url('/dashboard') }}">dashboard</a></li>
+            <li>
+              <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> Logout
+              </a>
+
+                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}
+                   </form>
+            </li>
+          @endauth
+        @endif
       </ul>
     </div>
 </nav>

@@ -54,3 +54,12 @@ Route::get('seeds', function()
 {
     return View::make('seeds')->withTitle('Seeds');
 });
+
+Auth::routes();
+
+Route::get('/dashboard', [
+  'middleware' => ['auth'],
+  'uses' => function () {
+   return View::make('dashboard')->withTitle('Dashboard');
+}]);
+
