@@ -61,6 +61,7 @@ Auth::routes();
 Route::get('/dashboard', [
   'middleware' => ['auth'],
   'uses' => function () {
+   $seeds = App\Seed::all();
    return View::make('dashboard')->withTitle('Dashboard');
 }]);
 

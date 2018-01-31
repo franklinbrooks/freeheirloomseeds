@@ -1,14 +1,30 @@
 @include('head')
 <body>
   @include('header')
+
+  <div class="seedy">
   <div class="container">
-    <h2>Seeds</h2>
-    <hr />
-    <p>CURRENTLY AVAILABLE:</p>
+<!--     <h2>Seeds</h2>
+    <hr /> -->
+
+<!-- card -->
+<div class="row">
+      <div class="col s12">
+        <div class="card-panel ">
+
+
+    <p class="flow-text center">AVAILABLE SEED STOCK || <span id="dateSpan"></span>: </p>
+
+    <!-- inset -->
+    <div class="row">
+      <div class="col s10 offset-s1">
+        <div class="center"><a href="FreeHeirloomSeeds.pdf" download="FreeHeirloomSeeds Order Form" id="orderForm" class="red-text"><i id="download" class="material-icons">get_app</i>Download an order form (.PDF)</a></div>
+        <p>  (Click seed name to open description in new window) </p>
 
     <ul class="collapsible" data-collapsible="expandable">
       <li>
-        <div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Legumes (Beans &amp; Peas)</div>
+        <div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Legumes (Beans &amp; Peas)
+        </div>
         <div class="collapsible-body green lighten-5">
           <span>
             <a href="https://www.fedcoseeds.com/seeds/?item=277" target="_blank">
@@ -163,14 +179,28 @@
           </span>
         </div>
       </li>
-
-
     </ul>
+
+  <!-- inset -->
+</div>
+</div>
+
+
+    <!-- card -->
+        </div>
+      </div>
+    </div>
+
+
 
   <br />
 
   </div>
+  </div>
     @include('footer')
+    <script>let currentDate = Date();
+    console.log(currentDate);
+    document.getElementById("dateSpan").innerHTML=currentDate;</script>
 </body>
 
 

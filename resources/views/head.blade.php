@@ -189,5 +189,11 @@
                 color: white;
                 text-align: center;
             }
+            .seedy {
+                background-image: url("/freeheirloomseeds/public/images/seeds.jpg");
+            }
+            #noBottom {
+                margin-bottom: 0;
+            }
         </style>
     </head>

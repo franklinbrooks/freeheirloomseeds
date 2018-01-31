@@ -1,7 +1,14 @@
 @include('head')
 <body>
   @include('header')
+  <div class="seedy">
   <div class="container">
+
+<!-- card -->
+<div class="row" id="noBottom">
+      <div class="col s12">
+        <div class="card-panel ">
+
     <h2>About FreeHeirloomSeeds.org</h2>
     <hr />
     <p></p>
@@ -22,6 +29,13 @@
       <blockquote>With factory farming techniques increasing, crop yields are up at the expense of seed diversity.  A relatively few number of hybrid seeds grow most of our supermarket-destined crops.  This leaves genetic diversity diminished, consumer choice lessened, and the potential for catastrophic crop failure increased.</blockquote>
       <br />
       <h4>Help us preserve heirloom seeds for a healthy future!</h4>
+
+    <!-- card -->
+        </div>
+      </div>
+    </div>
+
+  </div>
   </div>
   @include('footer')
 </body>
