@@ -4,8 +4,6 @@
 
   <div class="seedy">
   <div class="container">
-<!--     <h2>Seeds</h2>
-    <hr /> -->
 
 <!-- card -->
 <div class="row">
@@ -180,6 +178,7 @@
         </div>
       </li>
     </ul>
+    <p>Seed availability is subject to change at any time.</p>
 
   <!-- inset -->
 </div>
@@ -191,16 +190,46 @@
       </div>
     </div>
 
-
-
   <br />
+  </div>
+  </div>
 
+
+<!--  Instructions div  -->
+<div class="instructions valign-wrapper">
+  <div class="row">
+    <div class="left-align flow-text col s10 offset-s1 l5 offset-l1">
+        <h3>How it works:</h3>
+        <hr />
+        <ul>
+          <li>1. print our <a href="FreeHeirloomSeeds.pdf" download="FreeHeirloomSeeds Order Form" id="orderForm" class="red-text"><i id="download" class="material-icons">get_app</i>seed order form (.PDF)</a></li>
+        <li>2. include your garden size so we can try to send the right amount of seeds</li>
+        <li>3. send the form and a self addressed stamped envelope to: </li>
+          <div class="container green darken-3">
+            <div class="center" style="color:white">Free Seeds
+            <br />
+            c/o Stone Spirits
+            <br />
+            865B - 8th Street
+            <br />
+            Arcata CA 95521</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col l6 s12 valign-wrapper"><br />
+      <div class="center col s12 "><br />
+      <img id="sase" class="col s8 offset-s2 responsive-img center" src="/freeheirloomseeds/public/images/sase.jpg">
+      </div>
+    </div>
   </div>
-  </div>
+</div>
+
+
     @include('footer')
-    <script>let currentDate = Date();
+    <script>let currentDate = new Date();
     console.log(currentDate);
-    document.getElementById("dateSpan").innerHTML=currentDate;</script>
+    document.getElementById("dateSpan").innerHTML=currentDate.toDateString();</script>
 </body>
 
 

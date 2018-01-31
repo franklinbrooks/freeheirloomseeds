@@ -1,7 +1,18 @@
 @include('head')
 <body>
   @include('header')
+
+
+   <div class="seedy">
   <div class="container">
+
+<!-- card -->
+<div class="row">
+      <div class="col s12">
+        <div class="card-panel ">
+
+
+
     <h2>Donate</h2>
     <hr />
     <p class="flow-text">Please help us continue to ensure that heirloom seeds will be available to future generations.  Your generous donation helps us continue our distribution, advocacy, and outreach.</p>
@@ -27,5 +38,12 @@
     <br />
     <br />
   </div>
+
+    <!-- card -->
+        </div>
+      </div>
+    </div>
+
+
     @include('footer')
 </body>

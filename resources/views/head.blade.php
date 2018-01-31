@@ -24,7 +24,6 @@
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
-                /*height: 100vh;*/
                 margin: 0;
             }
             .flashMessage {
@@ -38,36 +37,18 @@
                 margin: 0 auto;
                 padding: 5px 0px 5px;
             }
-
-            .full-height {
-                /*height: 17%;*/
-            }
-
-            .flex-center {
-                /*align-items: center;*/
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
             .top-right {
                 position: absolute;
                 right: 10px;
                 top: 18px;
             }
-
             .content {
                 text-align: center;
             }
-
             .content > a {
                 color: #636b6f;
                 text-decoration: none;
             }
-
             .links > ul > li > a {
                 font-family: Raleway, sans-serif;
                 color: white;
@@ -78,7 +59,6 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-
             #nav-mobile {
                 display: flex;
                 justify-content: space-around;
@@ -110,7 +90,7 @@
                 margin-bottom: 0;
             }
             .myCard {
-                height: 280px;
+                min-height: 312px;
                 margin: 25px 0px 25px 0px;
             }
             blockquote{
@@ -125,14 +105,10 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 height: 500px;
+                margin-bottom: 0;
             }
             #mytextbox {
                 position: absolute;
-                top: 100px;
-                left: 75px;
-                height: 250px;
-                width: 500px;
-                margin: 0 auto;
                 padding: 20px;
                 background: rgba(255, 255, 255, 0.3);
                 color: white;
@@ -146,35 +122,23 @@
                 background-repeat: no-repeat;
             }
             .dist {
-                height: 200px;
-                width: 800px;
                 margin: 0 auto;
                 padding: 20px;
                 background: rgba(129, 199, 138, 0.9);
                 color: white;
                 text-align: center;
             }
-            .seeds {
+            #seeds {
                 position: relative;
                 background-image: url("/freeheirloomseeds/public/images/seeds.jpg");
                 height: 400px;
             }
-            .instructions {
-                height: 550px;
-            }
             .seedsText {
                 position: absolute;
-                top: 75px;
-                left: 15%;
-                width: 70%;
-                height: 250px;
                 background:  rgba(255,255,255, 0.95);
                 padding: 30px;
                 color: green;
-            }
-            #sase {
-                top: 50px;
-                left: 100px;
+                font-family: Roboto;
             }
             #volunteerBackground {
                 position: relative;

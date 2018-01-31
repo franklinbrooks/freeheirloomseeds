@@ -1,7 +1,18 @@
 @include('head')
 <body>
   @include('header')
+
+  <div class="seedy">
   <div class="container">
+
+<!-- card -->
+<div class="row">
+      <div class="col s12">
+        <div class="card-panel ">
+
+
+
+
     <h2>Distributors</h2>
     <hr />
     <p class="flow-text">Seeds can be picked up in person from:</p>
@@ -28,5 +39,14 @@
       <hr />
       <p class="flow-text">If you would like to volunteer to host a satellite distribution post in your area, please reach out via our "Contact" page to add your listing here! </p>
   </div>
+
+
+    <!-- card -->
+        </div>
+      </div>
+    </div>
+
+
+
   @include('footer')
 </body>

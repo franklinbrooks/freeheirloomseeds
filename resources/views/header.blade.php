@@ -20,9 +20,8 @@
 
     <div class="content">
         <a href="http://localhost/freeheirloomseeds/">
-            <h1>
-                FreeHeirloomSeeds.org
-            </h1>
+          <h1 class="center hide-on-med-and-down">FreeHeirloomSeeds.org</h1>
+          <h1 class="center hide-on-large-only">Free<br />Heirloom<br />Seeds.org</h1>
         </a>
         <br />
     </div>
