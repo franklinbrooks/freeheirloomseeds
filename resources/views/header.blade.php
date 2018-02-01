@@ -30,7 +30,7 @@
     <div class="nav-wrapper green lighten-2 links">
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="hide-on-med-and-down green lighten-2">
-        <li><a href="http://localhost/freeheirloomseeds/">home</a></li>
+        <li><a href="/">home</a></li>
         <li><a href="seeds">seeds</a></li>
         <li><a href="about">about</a></li>
         <li><a href="volunteer">volunteer</a></li>
@@ -54,7 +54,7 @@
 
       </ul>
       <ul class="side-nav green lighten-2 " id="mobile-demo">
-        <li><a href="http://localhost/freeheirloomseeds/">home</a></li>
+        <li><a href="/">home</a></li>
         <li><a href="seeds">seeds</a></li>
         <li><a href="about">about</a></li>
         <li><a href="volunteer">volunteer</a></li>

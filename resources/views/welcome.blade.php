@@ -94,27 +94,27 @@
     </div>
     <div class="col l6 s12 valign-wrapper"><br />
       <div class="center col s12 "><br />
-      <img id="sase" class="col s8 offset-s2 responsive-img center" src="/freeheirloomseeds/public/images/sase.jpg">
+      <img id="sase" class="col s8 offset-s2 responsive-img center" src="/public/images/sase.jpg">
       </div>
     </div>
   </div>
 </div>
 
-        <!--  Distributors div  -->
-          <div class="center distribution valign-wrapper">
-            <div class="container">
-              <div class="dist">
-                <h4>Prefer to pick up seeds in person?
-                  <br />
-                  See a list of our distribution sites.
-                </h4>
-                <div>
-                  <a class="waves-effect waves-light btn green" href="distributors">DISTRIBUTORS
-                 </a>
-               </div>
-             </div>
-          </div>
-        </div>
+  <!--  Distributors div  -->
+  <div class="center distribution valign-wrapper">
+    <div class="container">
+      <div class="dist">
+        <h4>Prefer to pick up seeds in person?
+          <br />
+          See a list of our distribution sites.
+        </h4>
+        <div>
+          <a class="waves-effect waves-light btn green" href="distributors">DISTRIBUTORS
+         </a>
+       </div>
+     </div>
+  </div>
+  </div>
 
 
       </main>
