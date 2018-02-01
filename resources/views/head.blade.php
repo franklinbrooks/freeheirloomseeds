@@ -100,7 +100,7 @@
             }
             #imageBackground {
                 position: relative;
-                background-image: url("/public/images/Seed_germination.png");
+                background-image: url("https://freeheirloomseeds.herokuapp.com/public/images/Seed_germination.png");
                 background-position: right;
                 background-size: cover;
                 background-repeat: no-repeat;
