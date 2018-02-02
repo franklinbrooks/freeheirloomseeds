@@ -100,7 +100,7 @@
             }
             #imageBackground {
                 position: relative;
-                background-image: url("Seed_germination.png");
+                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/Seed_germination.png");
                 background-position: right;
                 background-size: cover;
                 background-repeat: no-repeat;
