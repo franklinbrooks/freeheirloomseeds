@@ -94,7 +94,7 @@
     </div>
     <div class="col l6 s12 valign-wrapper"><br />
       <div class="center col s12 "><br />
-      <img id="sase" class="col s8 offset-s2 responsive-img center" src="/public/images/sase.jpg">
+      <img id="sase" class="col s8 offset-s2 responsive-img center" src="https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/sase.jpg">
       </div>
     </div>
   </div>

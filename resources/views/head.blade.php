@@ -116,7 +116,7 @@
             }
             .distribution {
                 height: 400px;
-                background-image: url("/public/images/soybeans.jpg");
+                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/soybeans.jpg");
                 background-position: center left;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -130,7 +130,7 @@
             }
             #seeds {
                 position: relative;
-                background-image: url("/public/images/seeds.jpg");
+                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/seeds.jpg");
                 height: 400px;
             }
             .seedsText {
@@ -142,7 +142,7 @@
             }
             #volunteerBackground {
                 position: relative;
-                background-image: url("/public/images/volunteer.jpg");
+                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/volunteer.jpg");
                 background-position: right;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -154,7 +154,7 @@
                 text-align: center;
             }
             .seedy {
-                background-image: url("/public/images/seeds.jpg");
+                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/seeds.jpg");
             }
             #noBottom {
                 margin-bottom: 0;
