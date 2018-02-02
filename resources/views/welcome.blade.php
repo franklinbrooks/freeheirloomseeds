@@ -77,7 +77,7 @@
         <h3>How it works:</h3>
         <hr />
         <ul>
-          <li>1. print our <a href="FreeHeirloomSeeds.pdf" download="FreeHeirloomSeeds Order Form" id="orderForm" class="red-text"><i id="download" class="material-icons">get_app</i>seed order form (.PDF)</a></li>
+          <li>1. print our <a href="https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/FreeHeirloomSeeds.pdf" download="FreeHeirloomSeeds Order Form" id="orderForm" class="red-text"><i id="download" class="material-icons">get_app</i>seed order form (.PDF)</a></li>
         <li>2. include your garden size so we can try to send the right amount of seeds</li>
         <li>3. send the form and a self addressed stamped envelope to: </li>
           <div class="container green darken-3">

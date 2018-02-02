@@ -13,7 +13,7 @@
 
       <div class="col-md-12">
         <h3>Contact Us</h3>
-        <p>FreeHeirloomSeeds@gmail.com</p>
+        <a href="mailto:FreeHeirloomSeeds@gmail.com?Subject=Free Heirloom Seeds" target="_top">FreeHeirloomSeeds@gmail.com</a>
         <hr />
 
 <div class="container">

@@ -6,7 +6,7 @@
     @if (Route::has('login'))
         <div class="top-right links">
             @auth
-                <a href="{{ url('/') }}">Logout</a>
+                <a href="{{ url('/') }}">Home</a>
                 <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> Logout </a>
 
 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
@@ -19,7 +19,7 @@
 
 
     <div class="content">
-        <a href="http://localhost/freeheirloomseeds/">
+        <a href="/">
           <h1 class="center hide-on-med-and-down">FreeHeirloomSeeds.org</h1>
           <h1 class="center hide-on-large-only">Free<br />Heirloom<br />Seeds.org</h1>
         </a>
