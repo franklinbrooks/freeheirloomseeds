@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Seed;
+
 class SeedController extends Controller
 {
     /**
@@ -13,8 +15,7 @@ class SeedController extends Controller
      */
     public function index()
     {
-        $seeds = App\Seed::all();
-        return view('dashboard' ['seed' => Seed::findOrFail($id)]);
+        return view("seeds")->withTitle('Seeds');
     }
 
     /**
@@ -24,7 +25,7 @@ class SeedController extends Controller
      */
     public function create()
     {
-        $seeds = App\Seed::all();
+        //$seeds = App\Seed::all();
         return view('create')->withTitle('Create');
     }
 
@@ -47,7 +48,7 @@ class SeedController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('details', ['seed' => Seed::findOrFail($id)]);
     }
 
     /**

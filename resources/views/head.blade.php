@@ -10,7 +10,7 @@
         <META NAME="keywords" CONTENT="free heirloom seeds, free seed, free vegetable seeds, seeds, organic gardening, organic seed, free seed distribution">
         <META NAME="robot" CONTENT="index,follow">
         <META NAME="author" CONTENT="Michael King">
-        <title>Free Seeds From FreeHeirloomSeeds.org - {{$title}} </title>
+        <title>Free Seeds From FreeHeirloomSeeds.org - {{ $title or 'Seed Detail' }} </title>
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <!-- Fonts -->

@@ -45,22 +45,14 @@ Route::get('donate', function()
     return View::make('donate')->withTitle('Donate');
 });
 
-// contact page (app/views/contact.blade.php)
+// contact resources routed to ContactController
 Route::get('contact', 'ContactController@getContact');
 Route::post('contact', 'ContactController@postContact');
 
-// seeds page (app/views/seeds.blade.php)
-Route::get('seeds', function()
-{
-    return View::make('seeds')->withTitle('Seeds');
-});
+// Seeds resources routed to SeedController
+Route::resource('seeds', 'SeedController');
 
-// seed details page (app/views/details.blade.php)
-//Route::get('seeds/{id}', function () {
-//    return View('details', ['seed' => Seed::findOrFail($id)]);
-//});
-
-// protected dashboard (app/views/dashboard.blade.php)
+// PROTECTED dashboard routes (app/views/dashboard.blade.php)
 Auth::routes();
 
 Route::get('/dashboard', [
@@ -83,4 +75,3 @@ Route::get('/edit', [
    $seeds = App\Seed::all();
    return View::make('edit')->withTitle('Edit');
 }]);
-

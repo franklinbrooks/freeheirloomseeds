@@ -1,202 +1,21 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <META NAME="description" CONTENT="FreeHeirloomSeeds.org is a community resource connecting people with the means to produce our own food.
-        We offer Free Heirloom Seeds to individuals, organic gardening & sustainability resources, as well as a community hub for people trying to preserve
-        natural eco diversity & life on earth.">
-        <META NAME="keywords" CONTENT="free heirloom seeds, free seed, free vegetable seeds, seeds, organic gardening, organic seed, free seed distribution">
-        <META NAME="robot" CONTENT="index,follow">
-        <META NAME="author" CONTENT="Michael King">
-        <title>Free Seeds From FreeHeirloomSeeds.org - Seed Details </title>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                margin: 0;
-            }
-            .flashMessage {
-                display: block;
-                width: 100%;
-                color: white;
-                background-color: green;
-                border-radius: 5px;
-                border: 2px solid #388e3c;
-                text-align: center;
-                margin: 0 auto;
-                padding: 5px 0px 5px;
-            }
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-            .content {
-                text-align: center;
-            }
-            .content > a {
-                color: #636b6f;
-                text-decoration: none;
-            }
-            .links > ul > li > a {
-                font-family: Raleway, sans-serif;
-                color: white;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-            #nav-mobile {
-                display: flex;
-                justify-content: space-around;
-            }
-            input[type="image"] {
-                cursor: pointer;
-            }
-            input[type="text"], #email, #subject {
-                border: 2px solid green;
-                background-color: #e8f5e9;
-                padding: 0px 0px 0px 10px;
-            }
-            textarea {
-                height: 100px;
-                padding: 10px 0px 0px 10px;
-                background-color: #e8f5e9;
-                border: 2px solid green;
-            }
-            input[type="submit"] {
-                padding: 7px;
-                color: white;
-                border: 2px solid green;
-                background-color: #00c853;
-            }
-            .promo-caption {
-                font-size: 1.7rem;
-                font-weight: 500;
-                margin-top: 5px;
-                margin-bottom: 0;
-            }
-            .myCard {
-                min-height: 312px;
-                margin: 25px 0px 25px 0px;
-            }
-            blockquote{
-              margin: 20px 0;
-              padding-left: 1.5rem;
-              border-left: 5px solid green;
-            }
-            #imageBackground {
-                position: relative;
-                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/Seed_germination.png");
-                background-position: right;
-                background-size: cover;
-                background-repeat: no-repeat;
-                height: 500px;
-                margin-bottom: 0;
-            }
-            #mytextbox {
-                position: absolute;
-                padding: 20px;
-                background: rgba(255, 255, 255, 0.3);
-                color: white;
-                text-align: center;
-            }
-            .distribution {
-                height: 400px;
-                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/soybeans.jpg");
-                background-position: center left;
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            .dist {
-                margin: 0 auto;
-                padding: 20px;
-                background: rgba(129, 199, 138, 0.9);
-                color: white;
-                text-align: center;
-            }
-            #seeds {
-                position: relative;
-                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/seeds.jpg");
-                height: 400px;
-            }
-            .seedsText {
-                position: absolute;
-                background:  rgba(255,255,255, 0.95);
-                padding: 30px;
-                color: green;
-                font-family: Roboto;
-            }
-            #volunteerBackground {
-                position: relative;
-                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/volunteer.jpg");
-                background-position: right;
-                background-size: cover;
-                background-repeat: no-repeat;
-                height: 500px;
-            }
-            #volunteerText {
-                margin: 0 auto;
-                color: white;
-                text-align: center;
-            }
-            .seedy {
-                background-image: url("https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/seeds.jpg");
-            }
-            #noBottom {
-                margin-bottom: 0;
-            }
-            .edit {
-                display: inline-block;
-                margin: 1px;
-                color: red;
-                padding: 1px;
-                border: 1px solid red;
-                text-align: center;
-            }
-            .add {
-                display: inline-block;
-                margin: 1px;
-                color: red;
-                padding: 1px;
-                border: 1px solid red;
-                text-align: center;
-            }
-            .new {
-                margin: 0 auto;
-            }
-        </style>
-    </head>
+@include('head')
 <body>
   @include('header')
   <div class="container">
     <h2>Seed Details</h2>
     <hr />
-    <p class="flow-text">Seed name.</p>
-    <p class="flow-text">Latin name.</p>
-    <p class="flow-text">Seed type.</p>
-    <p class="flow-text">Seed days to harvest.</p>
-    <img src="Seed_photo" />
+    <p class="flow-text">Seed name: {{ $seed->name }} </p>
+    <p class="flow-text">Latin name: {{ $seed->latin_name }} </p>
+    <p class="flow-text">Seed type: {{ $seed->type }} </p>
+    <p class="flow-text">Seed days to harvest: {{ $seed->days_to_harvest }} </p>
+    <img src=" {{ $seed->photo_url }} " />
     <hr />
-    <p class="flow-text">Description.</p>
+    <p class="flow-text">Description: {{ $seed->description }} </p>
     <hr />
-    <p class="flow-text">Seed instructions.</p>
-    <p class="flow-text">Seed pests and diseases.</p>
-    <p class="flow-text">Seed saving.</p>
-    <p class="flow-text">Seed source.</p>
+    <p class="flow-text">Seed instructions: {{ $seed->insructions }} </p>
+    <p class="flow-text">Seed pests and diseases: {{ $seed->pestdisease }} </p>
+    <p class="flow-text">Seed saving: {{ $seed->saving }} </p>
+    <p class="flow-text">Seed source: {{ $seed->source }} </p>
   </div>
   @include('footer')
 </body>
