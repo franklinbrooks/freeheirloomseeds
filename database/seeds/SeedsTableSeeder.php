@@ -12,6 +12,7 @@ class SeedsTableSeeder extends Seeder
     public function run()
     {
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Dragon Langerie Bush Wax Bean',
             'latin_name' => 'Phaseolus vulgaris',
             'type' => 'legume',
@@ -26,6 +27,7 @@ class SeedsTableSeeder extends Seeder
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Bleu de Solaize Leek',
             'latin_name' => 'Allium porrum',
             'type' => 'allium',
@@ -39,6 +41,7 @@ class SeedsTableSeeder extends Seeder
         ]);
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Tiger Eye Dry Bean',
             'latin_name' => 'Phaseolus vulgaris',
             'type' => 'legume',
@@ -52,6 +55,7 @@ class SeedsTableSeeder extends Seeder
         ]);
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Bulls Blood Beet',
             'latin_name' => 'Beta vulgaris',
             'type' => 'taproot',
@@ -66,6 +70,7 @@ class SeedsTableSeeder extends Seeder
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Red Cored Chantenay Carrot',
             'latin_name' => 'Daucus carota',
             'type' => 'taproot',
@@ -82,6 +87,7 @@ class SeedsTableSeeder extends Seeder
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Painted Serpent Long-Fruited Cucumber',
             'latin_name' => 'Cucumis melo var. flexuosus',
             'type' => 'cucumber',
@@ -95,6 +101,7 @@ class SeedsTableSeeder extends Seeder
         ]);
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'National Pickling Cucumber',
             'latin_name' => 'Cucumis sativus',
             'type' => 'cucumber',
@@ -109,6 +116,7 @@ class SeedsTableSeeder extends Seeder
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Rosa Bianca Eggplant ',
             'latin_name' => 'Solanum melongena',
             'type' => 'eggplant',
@@ -124,6 +132,7 @@ class SeedsTableSeeder extends Seeder
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Benning’s Green Tint Patty Pan Squash',
             'latin_name' => 'Cucurbita pepo',
             'type' => 'squash',
@@ -139,6 +148,7 @@ class SeedsTableSeeder extends Seeder
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Tetragonia, aka-New Zealand Spinach',
             'latin_name' => 'Tetragonia tetragonioides',
             'type' => 'greens',
@@ -154,6 +164,7 @@ class SeedsTableSeeder extends Seeder
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Burgess Buttercup/Kabocha Winter Squash',
             'latin_name' => 'Cucurbita maxima',
             'type' => 'squash',
@@ -172,6 +183,7 @@ Alan Kapuler has said, “If you pick only one squash to grow, this is it.” Je
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Feher Ozon Sweet Pepper',
             'latin_name' => 'Capsicum annuum',
             'type' => 'pepper',
@@ -187,6 +199,7 @@ Alan Kapuler has said, “If you pick only one squash to grow, this is it.” Je
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Anaheim Hot Pepper',
             'latin_name' => 'Capsicum annuum',
             'type' => 'pepper',
@@ -209,6 +222,7 @@ Minimum germination soil temperature 60°, optimal range 68-95°, optimal temper
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Vates Collards',
             'latin_name' => 'Brassica oleracea',
             'type' => 'greens',
@@ -223,6 +237,7 @@ Minimum germination soil temperature 60°, optimal range 68-95°, optimal temper
 
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Golden Gopher Muskmelon',
             'latin_name' => 'Cucumis melo',
             'type' => 'melon',
@@ -245,6 +260,7 @@ Enjoy an incomparable taste treat!',
         ]);
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Evergreen Hardy White Scallion',
             'latin_name' => 'Allium fistulosum',
             'type' => 'allium',
@@ -258,6 +274,7 @@ Enjoy an incomparable taste treat!',
         ]);
 
             DB::table('seeds')->insert([
+            'active' => 'true',
             'name' => 'Alderman or Tall Telephone Shell Pea',
             'latin_name' => 'Pisum sativum',
             'type' => 'legume',

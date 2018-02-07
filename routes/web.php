@@ -55,6 +55,11 @@ Route::get('seeds', function()
     return View::make('seeds')->withTitle('Seeds');
 });
 
+// seed details page (app/views/details.blade.php)
+//Route::get('seeds/{id}', function () {
+//    return View('details', ['seed' => Seed::findOrFail($id)]);
+//});
+
 // protected dashboard (app/views/dashboard.blade.php)
 Auth::routes();
 
@@ -63,5 +68,19 @@ Route::get('/dashboard', [
   'uses' => function () {
    $seeds = App\Seed::all();
    return View::make('dashboard')->withTitle('Dashboard');
+}]);
+
+Route::get('/create', [
+  'middleware' => ['auth'],
+  'uses' => function () {
+   $seeds = App\Seed::all();
+   return View::make('create')->withTitle('Create');
+}]);
+
+Route::get('/edit', [
+  'middleware' => ['auth'],
+  'uses' => function () {
+   $seeds = App\Seed::all();
+   return View::make('edit')->withTitle('Edit');
 }]);
 

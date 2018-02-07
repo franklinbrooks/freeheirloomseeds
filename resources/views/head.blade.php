@@ -159,5 +159,24 @@
             #noBottom {
                 margin-bottom: 0;
             }
+            .edit {
+                display: inline-block;
+                margin: 1px;
+                color: red;
+                padding: 1px;
+                border: 1px solid red;
+                text-align: center;
+            }
+            .add {
+                display: inline-block;
+                margin: 1px;
+                color: red;
+                padding: 1px;
+                border: 1px solid red;
+                text-align: center;
+            }
+            .new {
+                margin: 0 auto;
+            }
         </style>
     </head>

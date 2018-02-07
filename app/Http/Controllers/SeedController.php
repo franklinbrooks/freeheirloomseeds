@@ -14,7 +14,7 @@ class SeedController extends Controller
     public function index()
     {
         $seeds = App\Seed::all();
-        return view('dashboard')->withTitle('Dashboard');
+        return view('dashboard' ['seed' => Seed::findOrFail($id)]);
     }
 
     /**
@@ -24,7 +24,8 @@ class SeedController extends Controller
      */
     public function create()
     {
-        //
+        $seeds = App\Seed::all();
+        return view('create')->withTitle('Create');
     }
 
     /**
