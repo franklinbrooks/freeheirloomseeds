@@ -27,7 +27,7 @@
 
           if ($seed->type == 'legume') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name,  '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
+            echo '<div style="width:100%;display:inline-block">', $seed->name,  '<a style="float:right" class="edit" href="edit/', $seed->id, '">EDIT</a></div><br />';
 
           }
         }

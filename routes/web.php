@@ -69,9 +69,12 @@ Route::get('/create', [
    return View::make('create')->withTitle('Create');
 }]);
 
-Route::get('/edit', [
+Route::get('/edit($id)', [
   'middleware' => ['auth'],
   'uses' => function () {
    $seeds = App\Seed::all();
-   return View::make('edit')->withTitle('Edit');
+   return view('edit', ['seed' => Seed::findOrFail($id)]);
+   //return View::make('edit')->withTitle('Edit');
 }]);
+
+
