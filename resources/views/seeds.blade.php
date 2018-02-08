@@ -20,7 +20,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Legumes (Beans &amp; Peas)</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Legume') {
+                      if ($seed->type == 'Legume' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -33,7 +33,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Cucumbers</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Cucumber') {
+                      if ($seed->type == 'Cucumber' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -46,7 +46,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Squashes</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Squash') {
+                      if ($seed->type == 'Squash' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -59,7 +59,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Peppers</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Pepper') {
+                      if ($seed->type == 'Pepper' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -72,7 +72,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Alliums (Onions)</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Allium') {
+                      if ($seed->type == 'Allium' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -85,7 +85,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Taproots</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Taproot') {
+                      if ($seed->type == 'Taproot' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -98,7 +98,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Leafy Greens</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Greens') {
+                      if ($seed->type == 'Greens' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -111,7 +111,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Melons</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Melon') {
+                      if ($seed->type == 'Melon' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -124,7 +124,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Eggplants</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Eggplant') {
+                      if ($seed->type == 'Eggplant' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
@@ -137,7 +137,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Other</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'Other') {
+                      if ($seed->type == 'Other' && $seed->active == 'true') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
