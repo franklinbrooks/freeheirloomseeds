@@ -193,6 +193,11 @@
     console.log(currentDate);
     document.getElementById("dateSpan").innerHTML=currentDate.toDateString();
   </script>
+  <script>
+    $(document).ready(function(){
+    $('.collapsible').collapsible();
+    });
+  </script>
 </body>
 
 
