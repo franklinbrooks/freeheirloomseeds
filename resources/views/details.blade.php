@@ -53,7 +53,7 @@
             ?>
 
 
-          <a href="/freeheirloomseeds/seeds"><p class="edit">Back to seed list</p></a>
+          <a class="edit" href="javascript:history.back()">Back</a>
         </div>
       </div>
     </div>
