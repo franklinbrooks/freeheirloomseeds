@@ -25,7 +25,7 @@
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'legume') {
+          if ($seed->type == 'Legume') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name,  '<a style="float:right" class="edit" href="edit/', $seed->id, '">EDIT</a></div><br />';
 
@@ -42,7 +42,7 @@
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'cucumber') {
+          if ($seed->type == 'Cucumber') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -60,7 +60,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'squash') {
+          if ($seed->type == 'Squash') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -78,7 +78,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'pepper') {
+          if ($seed->type == 'Pepper') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -96,7 +96,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'allium') {
+          if ($seed->type == 'Allium') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -114,7 +114,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'taproot') {
+          if ($seed->type == 'Taproot') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -132,7 +132,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'greens') {
+          if ($seed->type == 'Greens') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -150,7 +150,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'melon') {
+          if ($seed->type == 'Melon') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -168,7 +168,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'cucumber') {
+          if ($seed->type == 'Cucumber') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
@@ -186,7 +186,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'other') {
+          if ($seed->type == 'Other') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
