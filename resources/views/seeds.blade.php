@@ -20,7 +20,7 @@
                         echo '<li>';
                         echo '<div class="collapsible-header green lighten-3"><i class="material-icons">add_box</i>Legumes (Beans &amp; Peas)</div>';
                     foreach ($seeds as $seed) {
-                      if ($seed->type == 'legume') {
+                      if ($seed->type == 'Legume') {
                         echo '<div class="collapsible-body green lighten-5">';
                         echo '<span><a href="seeds/', $seed->id, '">', $seed->name ,'</a></span>';
                         echo '</div>';
