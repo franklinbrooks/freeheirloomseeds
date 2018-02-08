@@ -12,7 +12,7 @@
             <div class="row">
               <div class="col s10 offset-s1">
                 <div class="center"><a href="https://s3-us-west-1.amazonaws.com/freeheirloomseeds-assets/FreeHeirloomSeeds.pdf" download="FreeHeirloomSeeds Order Form" id="orderForm" class="red-text"><i id="download" class="material-icons">get_app</i>Download an order form (.PDF)</a></div>
-                <p>  (Click seed name to open description in new window) </p>
+                <p>  (Click seed name to view details) </p>
                 <ul class="collapsible" data-collapsible="expandable">
 
                   <?php
