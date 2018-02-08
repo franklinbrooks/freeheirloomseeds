@@ -22,7 +22,7 @@ class SeedsTableSeeder extends Seeder
             'instructions' => 'Legumes have moderate fertility needs. Excessive nitrogen may induce some varieties to develop vines in moist hot weather. Tender, will not survive frost. Plant 3–4 seeds/ft in rows 24–30" apart. Pick frequently for maximum yields, but avoid disturbing foliage in wet weather to prevent spread of fungal diseases. White-seeded beans usually don’t germinate as well as dark-seeded. Minimum germination soil temperature 60°. Optimal range 60–80°. Optimal temperature 77°. Emergence takes 16 days at 59°; only 8 days at 77°. Produce 97% normal seedlings at 77°, but only 47% at 86°. Wider spacing reduces likelihood of SC (white mold). Don’t disturb wet foliage.',
             'pestdisease' => 'Anthracnose, Bacterial Brown Spot, Common Bean Mosaic Virus, Curly Top Virus, Downy Mildew, Halo Blight, NY 15 Mosaic Virus, Powdery Mildew, Pod Mottle Virus, Rust, Sclerotina',
             'saving' => '',
-            'source' => 'https://www.fedcoseeds.com/seeds/seeds_images/277.jpg',
+            'source' => '',
         ]);
 
 
@@ -37,7 +37,7 @@ class SeedsTableSeeder extends Seeder
             'instructions' => 'Start indoors in Feb. or March and transplant out in spring almost as soon as the ground can be worked. Set 6–12" apart in trenches in well-dug beds with generous quantities of organic matter. Avoid transplanting next to grass strips; slugs love to dine on tiny allium seedlings. Irrigate seedlings whenever the topsoil dries out. Early leeks have tall shanks above ground and should be harvested before severe frosts. Hardier leeks have broader, shorter shanks and will hold till November. Leeks brought into the root cellar will survive almost all winter if heeled into soil. Minimum germination temperature 50°, optimum range 60-70°, optimal temp 68°. Emergence 13 days at 50°, only 5 days at 68°, 99% normal seedlings at 68°.',
             'pestdisease' => 'Purple Blotch, Pink Root',
             'saving' => 'Leek seed is short-lived. Retest 1-year-old seed before using, and discard anything older.  ',
-            'source' => 'https://www.fedcoseeds.com/seeds/seeds_images/277.jpg',
+            'source' => '',
         ]);
 
             DB::table('seeds')->insert([
@@ -59,7 +59,7 @@ class SeedsTableSeeder extends Seeder
             'name' => 'Bulls Blood Beet',
             'latin_name' => 'Beta vulgaris',
             'type' => 'taproot',
-            'photo_url' => 'https://www.fedcoseeds.com/seeds/seeds_images/2425.jpg',
+            'photo_url' => 'https://www.fedcoseeds.com/seeds/seeds_images/2186.jpg',
             'description' => 'Open-pollinated. Prized for its spectacular leaves, not its rough flattened globe-shaped roots. Runaway winner of the 26 varieties in our beet greens trial years back, sweet and nutty with never a hint of oxalic aftertaste, it again received high praise from our tasters more recently. Also a winner in appearance, with large glossy reddish-purple leaves. No bull, it holds quality all summer, with color intensifying as it grows, especially under cool conditions in fall or under winter cover. Bull’s Blood is Eliot Coleman’s red leaf of choice for winter harvest salad mixes (see p. 230 of The Winter Harvest Handbook). Old variety; its name hints of 19th-century origins when beets were known as blood turnips. Selected around 1840 from the French variety Crapaudine for darkest-colored leaves.',
             'days_to_harvest' => '60',
             'instructions' => 'Hardy and easy to grow. Can be sown almost as soon as ground can be worked. Thin by harvesting greens with baby beets. Beets left to mature to full size should be at least 3" apart.  Minimum germination temperature 40°, optimal range 60–85°, optimal temperature 77°. Emergence takes 17 days at 50°, 10 days at 59°, 5 days at 77°, highest % of normal seedlings at 77°.',
