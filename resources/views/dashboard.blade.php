@@ -168,7 +168,7 @@ echo '</div>';
 
         foreach ($seeds as $seed) {
 
-          if ($seed->type == 'Cucumber') {
+          if ($seed->type == 'Eggplant') {
 
             echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
 
