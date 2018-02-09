@@ -63,6 +63,9 @@
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
             }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
+            }
             echo '</div><br />';
 
           }
@@ -89,6 +92,9 @@ echo '</div>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
             }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
+            }
             echo '</div><br />';
           }
 
@@ -113,6 +119,9 @@ echo '</div>';
             echo '/edit">EDIT</a>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
+            }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
             }
             echo '</div><br />';
           }
@@ -139,6 +148,9 @@ echo '</div>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
             }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
+            }
             echo '</div><br />';
           }
 
@@ -163,6 +175,9 @@ echo '</div>';
             echo '/edit">EDIT</a>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
+            }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
             }
             echo '</div><br />';
           }
@@ -189,6 +204,9 @@ echo '</div>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
             }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
+            }
             echo '</div><br />';
           }
 
@@ -213,6 +231,9 @@ echo '</div>';
             echo '/edit">EDIT</a>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
+            }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
             }
             echo '</div><br />';
           }
@@ -239,6 +260,9 @@ echo '</div>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
             }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
+            }
             echo '</div><br />';
           }
 
@@ -263,6 +287,9 @@ echo '</div>';
             echo '/edit">EDIT</a>';
             if ($seed->active == 'true') {
               echo '<span class="status"> * ACTIVE * </span>';
+            }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
             }
             echo '</div><br />';
           }
