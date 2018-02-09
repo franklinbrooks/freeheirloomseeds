@@ -1,6 +1,6 @@
 @include('head')
 <body class="main">
-  @include('header')
+  @include('seedheader')
   <div class="seedy">
     <div class="container">
 

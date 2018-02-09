@@ -9,6 +9,13 @@ use App\Seed;
 class SeedController extends Controller
 {
     /**
+     * Enforce middleware.
+     */
+    public function __construct()
+    {
+        $this->middleware('auth', ['only' => ['create', 'store', 'edit', 'delete']]);
+    }
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -36,10 +43,8 @@ class SeedController extends Controller
      */
     public function store(Request $request)
     {
-
         Seed::create($request->all());
         return view('dashboard')->withTitle('Dashboard');
-
     }
 
     /**
