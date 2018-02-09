@@ -25,7 +25,6 @@ class SeedController extends Controller
      */
     public function create()
     {
-        //$seeds = App\Seed::all();
         return view('create')->withTitle('Create');
     }
 
@@ -37,7 +36,10 @@ class SeedController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        Seed::create($request->all());
+        return view('dashboard')->withTitle('Dashboard');
+
     }
 
     /**
@@ -59,7 +61,7 @@ class SeedController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('edit', ['seed' => Seed::findOrFail($id)]);
     }
 
     /**
@@ -71,7 +73,24 @@ class SeedController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
+        $seed = Seed::find($id);
+        $seed->name = $request->name;
+        $seed->active = $request->active;
+        $seed->type = $request->type;
+        $seed->latin_name = $request->latin_name;
+        $seed->photo_url = $request->photo_url;
+        $seed->description = $request->description;
+        $seed->days_to_harvest = $request->days_to_harvest;
+        $seed->active = $request->active;
+        $seed->type = $request->type;
+        $seed->instructions = $request->instructions;
+        $seed->pestdisease = $request->pestdisease;
+        $seed->saving = $request->saving;
+        $seed->source = $request->source;
+        $seed->save();
+        return redirect('dashboard')->withTitle('Dashboard');
+
     }
 
     /**

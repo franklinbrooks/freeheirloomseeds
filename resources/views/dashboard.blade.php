@@ -17,6 +17,7 @@
 
 <?php
 
+  $seeds = null;
   $seeds = App\Seed::all();
 
       // This block will repeat for each seed type
@@ -27,8 +28,18 @@
 
           if ($seed->type == 'Legume') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name,  '<a style="float:right" class="edit" href="edit/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="statusTrue"> * ACTIVE * </span>';
+            }
+            if ($seed->active == 'false') {
+              echo '<span class="statusFalse"> * inactive * </span>';
+            }
+            echo '</div><br />';
           }
         }
         echo '</div>';
@@ -44,7 +55,15 @@
 
           if ($seed->type == 'Cucumber') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
 
           }
 
@@ -62,8 +81,15 @@ echo '</div>';
 
           if ($seed->type == 'Squash') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -80,8 +106,15 @@ echo '</div>';
 
           if ($seed->type == 'Pepper') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -98,8 +131,15 @@ echo '</div>';
 
           if ($seed->type == 'Allium') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -116,8 +156,15 @@ echo '</div>';
 
           if ($seed->type == 'Taproot') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -134,8 +181,15 @@ echo '</div>';
 
           if ($seed->type == 'Greens') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -152,8 +206,15 @@ echo '</div>';
 
           if ($seed->type == 'Melon') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -170,8 +231,15 @@ echo '</div>';
 
           if ($seed->type == 'Eggplant') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -188,8 +256,15 @@ echo '</div>';
 
           if ($seed->type == 'Other') {
 
-            echo '<div style="width:100%;display:inline-block">', $seed->name, '<a style="float:right" class="edit" href="seeds/', $seed->id, '">EDIT</a></div><br />';
-
+            echo '<div style="width:100%;display:inline-block">';
+            echo $seed->name;
+            echo '<a style="float:right" class="edit" href="seeds/';
+            echo $seed->id;
+            echo '/edit">EDIT</a>';
+            if ($seed->active == 'true') {
+              echo '<span class="status"> * ACTIVE * </span>';
+            }
+            echo '</div><br />';
           }
 
         }
@@ -200,7 +275,7 @@ echo '</div>';
 
     ?>
 <div class="new center">
-  <a href="{{ url('/create') }}"><div class="add">ADD NEW SEED</div></a>
+  <a href="{{ url('/seeds/create') }}"><div class="add">ADD NEW SEED</div></a>
 </div>
   </div>
   </div>

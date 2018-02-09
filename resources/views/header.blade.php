@@ -2,6 +2,10 @@
     <div class="flashMessage green"> {{ Session::get('success') }} </div>
 @endif
 
+@if (Session::has('message'))
+    <div class="flashMessage green"> {{ Session::get('message') }} </div>
+@endif
+
 <!-- <div class="flex-center position-ref full-height">
     @if (Route::has('login'))
         <div class="top-right links">

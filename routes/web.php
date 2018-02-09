@@ -62,19 +62,3 @@ Route::get('/dashboard', [
    return View::make('dashboard')->withTitle('Dashboard');
 }]);
 
-Route::get('/create', [
-  'middleware' => ['auth'],
-  'uses' => function () {
-   $seeds = App\Seed::all();
-   return View::make('create')->withTitle('Create');
-}]);
-
-Route::get('/edit($id)', [
-  'middleware' => ['auth'],
-  'uses' => function () {
-   $seeds = App\Seed::all();
-   return view('edit', ['seed' => Seed::findOrFail($id)]);
-   //return View::make('edit')->withTitle('Edit');
-}]);
-
-
