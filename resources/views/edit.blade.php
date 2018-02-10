@@ -101,7 +101,6 @@
 
                 <button type="submit" value="Submit">SAVE</button>
                 <a href=" {{ url('/dashboard') }} "><div class="add">CANCEL</div></a>
-                <a href=" /freeheirloomseeds/seeds/{{ $seed->id }} ">TEST </a>
               </form>
             </div>
           </div>
